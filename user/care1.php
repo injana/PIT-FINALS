@@ -9,7 +9,7 @@
     <script src="https://kit.fontawesome.com/ecd5e25db3.js" crossorigin="anonymous"></script>
     
     
-
+ 
     <title>The Basic Necessities of Proper Pet Care</title>
 </head>
 <body class="font-serif">
