@@ -17,7 +17,7 @@ $notifications = array();
 while ($row = $result->fetch_assoc()) {
     $notifications[] = $row;
 }
-
+ 
 echo json_encode(array('success' => true, 'notifications' => $notifications));
 
 $conn->close();
