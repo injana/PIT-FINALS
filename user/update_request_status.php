@@ -7,7 +7,7 @@ $data = json_decode(file_get_contents('php://input'), true);
 
 $adopt_id = $data['adopt_id'];
 $status = $data['status'];
-$user_id = $data['user_id']; // Ensure you get the user ID
+$user_id = $data['user_id']; // Ensure you get the us er ID
 
 // Update the adoption request status
 $sql = "UPDATE adopt SET status = ? WHERE adopt_id = ?";
