@@ -5,7 +5,7 @@ header('Content-Type: application/json');
 include 'dbcon.php';
 
 $data = json_decode(file_get_contents('php://input'), true);
-
+ 
 $username = $data['username'];
 $password = password_hash($data['password'], PASSWORD_DEFAULT); // Hashing the password
 $name = $data['name'];
