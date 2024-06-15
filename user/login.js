@@ -13,7 +13,7 @@ const firebaseConfig = {
   };
 firebase.initializeApp(firebaseConfig);
 
-document.getElementById('signin').addEventListener('click', submitForm);
+document.getElementById('signin').addEventListener('click', submitForm); 
 
 function submitForm(e) {
     e.preventDefault();
