@@ -1,6 +1,6 @@
 <?php
 header('Content-Type: application/json');
-// Include the database connection file
+// Include the database connection file 
 include 'dbcon.php';
 
 $data = json_decode(file_get_contents('php://input'), true);
