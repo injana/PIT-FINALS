@@ -6,7 +6,7 @@ include 'dbcon.php';
 
 $data = json_decode(file_get_contents('php://input'), true);
 
-$pet_name = $data['pet_name'];
+$pet_name = $data['pet_name']; 
 $breed = $data['breed'];
 $gender = $data['gender'];
 $weight = $data['weight'];
