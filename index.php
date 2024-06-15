@@ -11,7 +11,7 @@
   <script src="https://kit.fontawesome.com/ecd5e25db3.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="style.css">
 
-  <title>PetForAll</title>
+  <title>PetForAll</title> 
 </head>
 
 <body>
