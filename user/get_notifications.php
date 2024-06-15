@@ -21,4 +21,4 @@ while ($row = $result->fetch_assoc()) {
 echo json_encode(array('success' => true, 'notifications' => $notifications));
 
 $conn->close();
-?>
+?> 
