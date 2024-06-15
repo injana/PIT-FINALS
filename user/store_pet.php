@@ -10,7 +10,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $weight = $_POST['weight'];
     $color = $_POST['color'];
     $personality = $_POST['personality']
-    ;
+    ; 
 
     $sql = "INSERT INTO pet_info (name, breed, age, gender, weight, color, personality)
             VALUES ('$name', '$breed', '$age', '$gender', '$weight', '$color', '$personality')";
