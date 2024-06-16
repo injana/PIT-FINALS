@@ -14,7 +14,7 @@
     <nav class="navbar navbar-expand-sm fixed top-0 items-center justify-between gap-4 text-white bg-[#b08f6f] z-50 pr-28">
         <div class="flex justify-center items-center">
             <img src="../picture/logo.png" class="ml-10 " width="110px">
-            <h1 class="text-5xl">Pet For All</h1>
+            <h1 class="text-5xl">Pet For All</h1> 
         </div>
         <ul class="flex gap-5 mr-10">
             <li><a href="./" class=" p-5 font-bold rounded-md hover:bg-[#74512D]">Home</a></li>
