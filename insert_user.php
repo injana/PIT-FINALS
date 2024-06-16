@@ -10,7 +10,7 @@ $username = $data['username'];
 $password = password_hash($data['password'], PASSWORD_DEFAULT); // Hashing the password
 $name = $data['name'];
 $email = $data['email'];  
-$address = $data['address'];
+$address = $data['address']; 
 $phone_number = $data['phone_number'];
 
 $sql = "INSERT INTO user (username, password, name, email, address, phone_number) VALUES (?, ?, ?, ?, ?, ?)";
