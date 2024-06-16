@@ -5,7 +5,7 @@ header('Content-Type: application/json');
 
 $response = array();
 
-try {
+try { 
     $sql = "SELECT pet_info.pet_id, pet_info.pet_name, pet_info.breed, pet_info.age, pet_info.gender, pet_info.weight, pet_info.color, pet_info.personality, pet_info.pet_pic, adopt.status, adopt.adopt_id
             FROM pet_info
             JOIN adopt ON pet_info.pet_id = adopt.pet_id
