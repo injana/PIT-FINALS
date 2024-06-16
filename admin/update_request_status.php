@@ -6,7 +6,7 @@ header('Content-Type: application/json');
 $data = json_decode(file_get_contents('php://input'), true);
 $adopt_id = $data['adopt_id'];
 $status = $data['status'];
-
+ 
 // Update adoption request status
 $sql = "UPDATE adopt SET status = ? WHERE adopt_id = ?";
 $stmt = $conn->prepare($sql);
