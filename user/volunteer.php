@@ -7,7 +7,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://kit.fontawesome.com/ecd5e25db3.js" crossorigin="anonymous"></script>
 
-
+ 
     <title>Volunteer</title>
 </head> 
 <body class="font-serif" id="home">
