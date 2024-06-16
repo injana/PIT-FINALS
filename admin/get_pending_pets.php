@@ -9,7 +9,7 @@ $sql = "SELECT a.pet_id, a.status, p.pame, p.breed, p.gender, p.weight, p.age, p
         WHERE a.status = 'pending'";
 
 $result = $conn->query($sql);
-
+ 
 if ($result && $result->num_rows > 0) {
   $pets = [];
   while($row = $result->fetch_assoc()) {
