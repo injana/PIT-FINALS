@@ -9,7 +9,7 @@ $data = json_decode(file_get_contents('php://input'), true);
 $username = $data['username'];
 $password = $data['password'];
 
-$response = ['success' => false, 'message' => 'Invalid username or password'];
+$response = ['success' => false, 'message' => 'Invalid username or password '];
 
 if ($stmt = $conn->prepare("SELECT password FROM admin WHERE username = ?")) {
     $stmt->bind_param("s", $username);
